@@ -1,6 +1,7 @@
 baseURL: https://blog.6mile.dev/
 defaultContentLanguage: ja
 title: 雑記帳
+publishDir : "public"
 theme: "PaperMod"
 paginate: 7
 
