@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Categories on 雑記帳</title>
+    <link>https://blog.6mile.dev/categories/</link>
+    <description>Recent content in Categories on 雑記帳</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 19 Feb 2022 10:42:51 +0900</lastBuildDate><atom:link href="https://blog.6mile.dev/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>未定義</title>
+      <link>https://blog.6mile.dev/categories/%E6%9C%AA%E5%AE%9A%E7%BE%A9/</link>
+      <pubDate>Sat, 19 Feb 2022 10:42:51 +0900</pubDate>
+      
+      <guid>https://blog.6mile.dev/categories/%E6%9C%AA%E5%AE%9A%E7%BE%A9/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
