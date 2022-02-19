@@ -1,0 +1,83 @@
+baseURL: https://blog.6mile.dev/
+defaultContentLanguage: ja
+title: 雑記帳
+theme: "PaperMod"
+paginate: 7
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+params:
+  title: 雑記帳
+  description: "6mileが書いているブログです"
+  keywords: [Blog, 6mile, 雑記帳]
+  author: 6mile
+  DateFormat: "2006-01-02"
+  defaultTheme: auto # dark, light
+  disableThemeToggle: false
+
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: false
+  disableSpecial1stPost: false
+  disableScrollToTop: true
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: false
+  tocopen: true
+  enableGitInfo: true
+
+  # home-info mode
+  homeInfoParams:
+    Title: "雑記帳"
+    Content: 思ったことを適当に書いてます
+
+  socialIcons:
+    - name: twitter
+      url: "https://twitter.com/6mile0"
+    - name: github
+      url: "https://github.com/6mile0"
+
+  cover:
+    hidden: true # hide everywhere but not in structured data
+    hiddenInList: true # hide on list pages and home
+    hiddenInSingle: true # hide on single page
+
+  # for search
+  # https://fusejs.io/api/options.html
+  fuseOpts:
+    isCaseSensitive: true
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
+menu:
+  main:
+    - identifier: categories
+      name: Category
+      url: /categories/
+      weight: 10
+    - identifier: tags
+      name: Tag
+      url: /tags/
+      weight: 20
+# Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
+# pygmentsUseClasses: true
+# markup:
+#     highlight:
+#         # anchorLineNos: true
+#         codeFences: true
+#         guessSyntax: true
+#         lineNos: true
+#         style: monokai
